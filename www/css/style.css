@@ -1,0 +1,327 @@
+
+/*.header {
+    padding: 10000px 20000px;
+}
+.body {
+    background-image: url("../images/bg.jpg);
+    margin-bottom: 0;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: white;
+} */
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+html{
+    background: url(bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+background-size: cover;"
+}
+.navbar {
+   
+    background-color: #f23584;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    opacity: 0.9;
+    
+}
+.navbar-brand{
+    color: white;
+    letter-spacing: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav{
+
+	text-align:center;
+
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #236270 !important;
+    background-color: white!important;
+    
+}
+
+.navbar-default .navbar-toggle .navbar-header {
+    border-color: transparent;
+    color: #fff !important;
+} 
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    list-style:none;
+}
+
+
+.parallax {
+    background-image: url("../images/bg.jpg");
+    min-height= 1500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%    ;
+ 
+}
+
+.text{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#face{
+    width: 20%;
+    height: auto;
+}
+
+#comp{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    color: Teal;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+#Portfolio{
+   
+    text-align: center;
+    padding: 80px;
+}
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+footer{
+    color: teal;
+}
+#contact{
+    padding: 50px;
+}
+#down{
+    color: white;
+    font-size: 30px;
+}
+
+#button{
+    background:#f23584;
+    color: white;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: white;
+    padding: 20px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+#button:hover{
+    background:none;
+    color: #f23584;
+
+}
+#btn-lg{
+    background:  #f23584;
+    color:white;
+
+}
+.modal{
+    outline:  #f23584;
+    color: #f23584;
+}
+
+@-webkit-keyframes typing {
+    from { width: 0 }
+    to { width:10em }
+}
+
+@-moz-keyframes typing {
+    from { width: 0 }
+    to { width:10em }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white}
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+
+
+.type { 
+    margin: 0 auto;
+    font-size:150%;
+    width:35em;
+    white-space:nowrap;
+    overflow:hidden;
+    border-right: .1em solid black;
+    
+    -webkit-animation: typing 5s steps(30, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+    -moz-animation: typing 3s steps(13, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+}
+
+.blink {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.nav-tabs { 
+    border-bottom: 0px solid white; 
+    margin:  0 auto;
+}
+   
+.nav-tabs > li > a { 
+    border: none;
+    color: White; 
+}
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover { 
+    border: none; 
+    color: white !important; 
+    background:none;
+}
+.nav-tabs > li > a::after { 
+    content: ""; 
+    background: white; 
+    height: 2px; 
+    position: absolute; 
+    width: 100%; 
+    left: 0px; 
+    bottom: -1px; 
+    transition: all 250ms ease 0s; 
+    transform: scale(0); 
+}
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { 
+    transform: scale(1); 
+}
+
+.nav-tabs > li.active > a:focus{
+    background: transparent;
+    border: 0px;
+}  
+.nav-tabs > li.active > a:hover{
+    background: transparent;
+    border: 0px;
+}  
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+body{
+    color: white;
+}
+
+.btn{
+    background: transparent;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#SignUpSubmit{
+    background:#f23584;
+    color: white;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+#map {
+    height: 400px;
+    width: 60%;
+    background-color: grey;
+    color: black;
+  }
+
+table{ 
+    color: white;
+    border-color: white;
+}
+
+th, td{
+    padding: 10px;
+}
+
+#UserInput{
+    border-width: 3px;
+}
+

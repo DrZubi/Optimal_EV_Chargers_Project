@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+         <title>NiH Solutions</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+         <link href="css/style.css" type="text/css" rel="stylesheet" />
+         <link href="css/lightbox.css" rel="stylesheet">
+         <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+         <script src="js/main.js"></script>
+         <script src="js/lightbox.js"></script>
+         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+    <body id="home" data-spy="scroll" data-target= ".navbar" data-offset="60">
+        <div class="parallax" id="bodyContent"> 
+        <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#"> NiH Solutions </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="https://web.ics.purdue.edu/~g1114005/index.html#about">ABOUT</a></li>
+                <li><a href="https://web.ics.purdue.edu/~g1114005/index.html#work">WORK</a></li>
+                <li><a href="https://web.ics.purdue.edu/~g1114005/index.html#contact">CONTACT US</a></li>
+            </ul>
+            </div>
+        </nav>
+            
+            <header class="container-fluid">   
+            <div class="text">
+            <h1> Sign up! </h1>
+            </div>
+
+            <form name="SignUp" method="post" action="SignUp.php">
+                <div class="col-md-2 mb-8 col-centered">
+                <div class="form-group">
+                  <label for="emailId">Email address</label>
+                  <input required name="EmailId" type="email" class="form-control" id="emailId" name="EmailId" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="Password">Password</label>
+                  <input required type="password" class="form-control" id="Password" name="Password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="Username">Username</label>
+                    <input required type="text" class="form-control" id="Username" name="Username" placeholder="Username">
+                  </div>
+                <div class="form-group">
+                   <label for="Region">What kind of account would you like to create?</label>
+                   <select required type="text" class="form-control" id="Region" name="AcType" default="Electric Vehicle Owner">
+                       <option>Electric Vehicle Owner</option>
+                       <option>Charger Supplier</option>
+                    </select>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LcSOu8UAAAAAGatYCq1n3tu_MCXKUAqnMCZwC9L"></div>
+                <br/>
+                <input required type="submit" value="Submit" class="btn" id="SignUpSubmit">
+            </div>
+              </form>
+
+
+
+            </div>
+        
+
