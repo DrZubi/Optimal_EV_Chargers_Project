@@ -43,8 +43,8 @@ Homepage:
 ![image](homepage.PNG)
 
 Data Import Page:
-![image](image.PNG)
+![image](image.png)
 
 Optimal Locations Results From Testing Data:
-![image](image.PNG)
+![image](info.PNG)
 
