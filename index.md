@@ -39,5 +39,10 @@ Upon entering the dedicated website portal, every client will have the option to
 * Company’s vision, values, and goals established, then aligned the project to meet them•Allows the clients to input a csv file of the edges required, thus enhancing their experience•Personalized Name on Website•Created two different web interface experiences based on if it is a client or a user
 
 ### Website Interface Preview
-
+Homepage:
 ![image](homepage.PNG)
+Data Import Page:
+![image](image.PNG)
+Optimal Locations Results From Testing Data:
+![image](image.PNG)
+
