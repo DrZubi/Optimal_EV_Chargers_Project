@@ -20,11 +20,23 @@ gamma which was the next closest and used gamma distribution parameters found fr
 given to us to generate the traffic for the next 5 years. The fit of gamma to the distribution can be seen
 visually through Figure 2.
 
-
+Upon entering the dedicated website portal, every client will have the option to click on a command prompt that will redirect them to the Automated Station Spot landing page. Clients will then be required to specify their city of interest, allocated budget and geographical region in the input boxes. Based on the information provided the user, Automated Station Spot will then formulate several recommended solutions. ACSTM also caters to clients that are not certain with their budget just yet, instead, clients will also be able to enter a range of budgets. Our system will generate a list of coordinates thatare potential charging station locations that will be able to maximize client’s profits across five years. These determined values are based off the number of chargers that are to be situated, the number ofhotels and/or convenience stores constructed, the predicted demand as well as the overall cost. The On Route Navigation (ORN) is the second part of the web interface created to increase qualityof user experience. By taking in the users current address and their preferences for different chargingexperiences: whether they want to charge on the go, charge while eating food, charge while stayingovernight, charge while doing a quick shopping run, whatever may be the users preferences, ORNTMroutes the user to their desired destination using the shortest path possible, thus prioritizing the user’s time.
 
 ### Optamization Model
 
 ### Database Design 
+
+### Website Features
+* Reports completed in Latex
+* Seprate signup and login pages for drivers and companies
+* Desktop and Mobile compatible web page
+* Geocode to convert addressed to coordinates
+* Recaptcha was added to sign up and login to increase security
+* Simulation of demand using fitted distribution
+* Video Presentation created
+* Google Direction API to route
+* Google Map API for routing
+* Company’s vision, values, and goals established, then aligned the project to meet them•Allows the clients to input a csv file of the edges required, thus enhancing their experience•Personalized Name on Website•Created two different web interface experiences based on if it is a client or a user
 
 ### Website Interface Preview
 
