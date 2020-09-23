@@ -40,3 +40,4 @@ Upon entering the dedicated website portal, every client will have the option to
 
 ### Website Interface Preview
 
+homepage.png
