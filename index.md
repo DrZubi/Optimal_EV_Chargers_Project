@@ -41,8 +41,10 @@ Upon entering the dedicated website portal, every client will have the option to
 ### Website Interface Preview
 Homepage:
 ![image](homepage.PNG)
+
 Data Import Page:
 ![image](image.PNG)
+
 Optimal Locations Results From Testing Data:
 ![image](image.PNG)
 
