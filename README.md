@@ -1,4 +1,6 @@
 # Optimal_EV_Chargers_Project
+Please visit respitory's github page for more information. 
+
 ## Predicting Electric Vehicle Charging Station Locations in the US
 Created by Prathna Khemka, Shaurya Malik, Omar Zu'bi. 
 (MIT license, please read LICENSE.txt)
